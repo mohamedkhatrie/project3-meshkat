@@ -1,0 +1,129 @@
+.header{
+    background-color: darkblue;
+    color: blanchedalmond;
+    height: 50px;
+    line-height: 50px;
+}
+.header a {
+    float: right;
+    margin-top: 5px;
+}
+ 
+/*-----------*/
+
+
+
+.carousel-indicators li{
+    height: 15px;
+    background-color: rgb(203, 163, 163);
+}
+.carousel-inner{
+    z-index: 100%;
+}
+.featers{
+    margin-top: 75px;
+}
+.featers i{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    line-height: 100px;
+    color: bisque;
+    font-size: 30p;
+
+}
+.featers h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.featers p {
+    color: rgb(74, 71, 71) ;
+    line-height: 1.8 ;
+}
+.featers h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.our-team{
+    background-color: rgb(162, 151, 151);
+    padding: 200px;
+    background-image: url(../images/bakg1.jpg);
+    background-size: cover;
+    width: fit-content;
+
+}
+.statistic{
+    background-image: url(../images/);
+    height: 500px;
+    background-image:url(../images/bkg2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    margin-top: 100px;
+    width: 100%;
+}
+.statistic .overlay {
+    text-align: center;
+    padding-top: 100px;
+}
+.statistic .overlay h3{
+    color: beige;
+}
+.statistic .overlay p{
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+}
+.our-customers{
+    height: 300px;
+    background-color: rgb(193, 214, 207);
+    line-height: 200px;
+    border-bottom: 15px solid red;
+}
+.news .btn-primary{
+   background-color: brown;
+    border-radius: 12px 12px ;
+    border-color: brown;
+}
+.news .btn-primary:hover{
+    background-color: rgb(75, 25, 58);
+
+}
+footer{
+    background-color: darkolivegreen;
+    padding-top: 30px;
+}
+footer a{
+    color: rgb(185, 149, 102);
+    
+}
+footer:hover{
+    color: black;
+}
+footer ul li{
+    list-style: none ;
+}
+.jumbotron{
+    display: flex;
+    justify-content: space-between;
+}
+.images{
+    width: 150px;
+}
+.jumbotron .jumbotron-fluid{
+    flex: 2;
+}
+.jumbotron .images{
+    flex: 2;
+}
+.Page{
+   align-items: center;
+}
+
+.blog_details img {
+    width:100px ;
+}
+.courses img:hover{
+    transform: scale(1.1);
+}
